@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(140, 195, 240);
+}
+h1{
+    background-color: pink;
+    border: solid salmon;
+    border-radius: 1pc; 
+}
+html{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black 
+}
+body{
+    background-color: rgb(166, 122, 207);
+    
+}
+nav{
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: stretch;
+  list-style-type: none;
+}
+nav li:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  /* background-color: pink; */
+}
+nav li:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  /* background-color: pink; */
+}
+nav li:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  /* background-color: pink; */
+}
+nav li:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  /* background-color: pink; */
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: overline;
+}
+.Hero {
+    height: 25%;              
+    display: flex;
+    justify-content: center;    
+    align-items: center;       
+    text-align: center;
+    
+}
+
+#Welcome {
+    max-width: 600px;
+}
+
+.btn{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    border: solid black 1px
+    
+}
+h2 ,h1{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    border-radius: 25%;
+}
+#Projects{
+    margin: 15PX;
+    display: flex;
+    display: grid;
+    justify-content: center;
+
+}
+#Projects img{
+    margin-top: 5px;
+}
+#App{
+    background-color: pink;
+    border-radius: 10px ;
+    margin: 10px;
+    text-align: center
+}
+#PC{
+ background-color: pink;
+    border-radius: 10px ;
+    margin: 10px;
+    text-align: center
+}
+#GUI{
+    background-color: pink;
+    border-radius: 10px ;
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(140, 195, 240); 
+}
+
+footer p{
+    display: flex;
+    justify-content: space-around;
+}
+
